@@ -1,0 +1,7 @@
+a=list(input("enter the list elements : "))
+def remove_(a):
+	b=set(a)
+	c=list(b)
+	c.sort()
+	return(c)
+print(remove_(a))
